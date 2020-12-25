@@ -1,4 +1,4 @@
-# ThinkCentre-E96-hackintosh
+# Lenovo ThinkCentre E96 hackintosh
 
 联想 ThinkCentre E96 台式电脑
 
