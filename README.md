@@ -16,7 +16,9 @@ CPU：i5-8400 6核心
 
 OC版本：0.6.4正式版
 
-Mac系统版本：系统版本：Big Sur
+Mac系统版本：Big Sur 11.1(20C69)
+
+显示器：Lenovo LEN60EC T2224s (21.5英寸) 只有DVI和VGA接口
 
 
-备注：由于这个机型主板没有DP接口，核显HDMI输出，使用缓冲帧 Big Sur已解决黑屏问题，大家可以测试使用！
+备注：核显HDMI输出，使用缓冲帧 Big Sur已解决黑屏问题，使用HDMI转DVI线连接显示器！
