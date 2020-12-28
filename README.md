@@ -12,6 +12,8 @@ CPU：i5-8400 6核心
 
 网卡：RTL8168/8111/8112
 
+*新购网卡：BCM94360CS2，蓝牙、wifi免驱，可以用Airdrop和Handoff了
+
 OC版本：0.6.4正式版
 
 Mac系统版本：系统版本：Big Sur
