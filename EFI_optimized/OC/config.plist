@@ -36,14 +36,6 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-EC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
 				<string>SSDT-PMC.aml</string>
 			</dict>
 			<dict>
@@ -315,7 +307,7 @@
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
-				<string>Lilu 基础插件（必需，所有 Lilu 插件依赖）</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -333,7 +325,7 @@
 				<key>BundlePath</key>
 				<string>AppleMCEReporterDisabler.kext</string>
 				<key>Comment</key>
-				<string>屏蔽 iMac19,2 机型的 MCEReporter 崩溃</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -349,9 +341,27 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
+				<string>HibernationFixup.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/HibernationFixup</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
-				<string>虚拟 SMC 主驱动</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -369,7 +379,7 @@
 				<key>BundlePath</key>
 				<string>SMCProcessor.kext</string>
 				<key>Comment</key>
-				<string>CPU 温度/频率传感器</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -387,7 +397,7 @@
 				<key>BundlePath</key>
 				<string>SMCSuperIO.kext</string>
 				<key>Comment</key>
-				<string>风扇/超级 I/O 传感器</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -405,7 +415,7 @@
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
-				<string>显卡驱动补丁（含 HDMI/DVI framebuffer）</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -423,7 +433,7 @@
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string>ALC662 声卡驱动（layout 12）</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -441,7 +451,7 @@
 				<key>BundlePath</key>
 				<string>RealtekRTL8111.kext</string>
 				<key>Comment</key>
-				<string>RTL8111 有线网卡</string>
+				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -477,9 +487,9 @@
 				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext</string>
 				<key>Comment</key>
-				<string>Broadcom 无线补丁（国家码 CN）</string>
+				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AirportBrcmFixup</string>
 				<key>MaxKernel</key>
@@ -501,7 +511,7 @@
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SimpleBCM</string>
 				<key>MaxKernel</key>
-				<string>25.99.99</string>
+				<string></string>
 				<key>MinKernel</key>
 				<string>23.0.0</string>
 				<key>PlistPath</key>
@@ -535,7 +545,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>[已禁用] USB 端口限制补丁 1/2（旧系统遗留）</string>
+				<string>USB Port limit patch #1/2 10.15.x (credit DalianSky)</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -571,7 +581,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>[已禁用] USB 端口限制补丁 2/2（旧系统遗留）</string>
+				<string>USB Port limit patch #2/2 10.15.x (credit DalianSky)</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -649,7 +659,7 @@
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>Scheme</key>
 		<dict>
@@ -703,9 +713,9 @@
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<true/>
+			<false/>
 			<key>ApplePanic</key>
-			<true/>
+			<false/>
 			<key>DisableWatchDog</key>
 			<true/>
 			<key>DisplayDelay</key>
@@ -717,7 +727,7 @@
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>3</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Entries</key>
 		<array/>
@@ -736,7 +746,7 @@
 			<key>EnablePassword</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
-			<integer>14</integer>
+			<integer>6</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
@@ -794,15 +804,13 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>alcid=12 brcmfx-country=CN</string>
+				<string>alcid=12</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==
 				</data>
 				<key>prev-lang:kbd</key>
-				<data>
-				cnUtUlU6MjUy
-				</data>
+				<string>zh-Hans:252</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 			</dict>
@@ -874,7 +882,6 @@
 			<integer>1541</integer>
 			<key>ROM</key>
 			<data>
-			ABEiM0RV
 			</data>
 			<key>SpoofVendor</key>
 			<false/>
@@ -985,6 +992,20 @@
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
+				<string>OpenRuntime.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>HideVerbose</key>
+				<false/>
+				<key>LoadEarly</key>
+				<false/>
+				<key>Path</key>
 				<string>AudioDxe.efi</string>
 			</dict>
 			<dict>
@@ -995,7 +1016,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>HideVerbose</key>
-				<true/>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -1019,21 +1040,13 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Comment</key>
-				<string></string>
+				<string>Reset NVRAM entry</string>
 				<key>Enabled</key>
 				<true/>
 				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
 				<false/>
-				<key>Path</key>
-				<string>OpenRuntime.efi</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Reset NVRAM entry</string>
-				<key>Enabled</key>
-				<true/>
 				<key>Path</key>
 				<string>ResetNvramEntry.efi</string>
 			</dict>
